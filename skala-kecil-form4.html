@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/dashboard.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.19.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="... (integrity hash) ..." crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="sidebar col-md-3 col-xl-2 px-sm-2 px-0 bg-white border-end">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100">
+                    <a href="/" class="title-sidebar d-flex align-items-center px-4 pb-3 mb-md-0 me-md-auto text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline "><strong class="title-sidebar">DASHBOARD</strong></span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 px-4 pt-5 align-items-center align-items-sm-start" id="menu">
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-5 bi-folder"></i> <span class="ms-1 d-none d-sm-inline">Dokumen ▼</span></a>
+                            <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="ps-4 nav-link px-1"> <span class="d-none d-sm-inline">Skala Kecil</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ps-4 nav-link px-2"> <span class="d-none d-sm-inline">Skala Besar</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-5 bi-file-text"></i> <span class="ms-1 d-none d-sm-inline">Cetak Partek</span></a>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+            <div class="col py-3">
+                <div class="page-title grey px-5 pt-2 text-dark"><u>Dokumen / Skala Kecil / Create</u></div>
+                <section class="section d-flex flex-column align-items-center">
+                    <div class="main-card">
+                            <div class="header-card">
+                                <h5>Form Section 4</h5>
+                                <!-- <button class="btn btn-create">Create</button> -->
+                            </div>
+                            <div class="body-card">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-9">1 . Upload Surat Permohonan ditujukan kepada Kepala Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu Provinsi Jawa Timur bermaterai 10000</div>
+                                        <div class="col-3 file-input">
+                                            <label for="formFileSm" class="form-label"></label>
+                                            <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                        </div>
+                                    </div><br>
+                                    <div class="row">
+                                        <div class="col-9">2. Nomor Induk Berusaha (NIB)</div>
+                                        <div class="col-3 file-input">
+                                            <label for="formFileSm" class="form-label"></label>
+                                                <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                        </div>
+                                    </div><br><br>
+                                    <div class="row">
+                                        <div class="col-9">3. Upload Dokumen Lingkungan Hidup berupa Surat Pernyataan Pengelolaan Lingkungan (SPPL)</div>
+                                        <div class="col-3 file-input">
+                                            <label for="formFileSm" class="form-label"></label>
+                                                <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                        </div>
+                                    </div><br><br>
+                                    <div class="row">
+                                        <div class="col-9">4. Upload Surat Pernyataan yang berisi jenis pengelolahan\r hasil hutan, Mesin Utama, Produksi dan Kapasitas Produksi</div>
+                                        <div class="col-3 file-input">
+                                            <label for="formFileSm" class="form-label"></label>
+                                                <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                        </div>
+                                    </div><br><br>
+                                    <div class="row">
+                                        <div class="col-9">5. Upload Pernyataan Mandiri dari OSS</div>
+                                        <div class="col-3 file-input">
+                                            <label for="formFileSm" class="form-label"></label>
+                                            <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                        </div>
+                                    </div><br>
+                                    <button class=" mt-4 btn btn-sm btn-outline-info w-25">Prev</button>
+                                    <button class=" mt-4 btn btn-sm btn-info w-25 ms-3">Save</button>
+                                    <button class=" mt-4 btn btn-sm btn-success w-25 ms-3">Submit</button>
+                                </div>
+                            </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="... (integrity hash) ..." crossorigin="anonymous"></script>
+
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="... (integrity hash) ..." crossorigin="anonymous"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="... (integrity hash) ..." crossorigin="anonymous"></script>
+
+    </html>

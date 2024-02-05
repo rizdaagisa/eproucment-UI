@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/dashboard.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.19.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="... (integrity hash) ..." crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="sidebar col-md-3 col-xl-2 px-sm-2 px-0 bg-white border-end">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100">
+                    <a href="/" class="title-sidebar d-flex align-items-center px-4 pb-3 mb-md-0 me-md-auto text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline "><strong class="title-sidebar">DASHBOARD</strong></span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 px-4 pt-5 align-items-center align-items-sm-start" id="menu">
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-5 bi-folder"></i> <span class="ms-1 d-none d-sm-inline">Dokumen ▼</span></a>
+                            <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="ps-4 nav-link px-1"> <span class="d-none d-sm-inline">Skala Kecil</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ps-4 nav-link px-2"> <span class="d-none d-sm-inline">Skala Besar</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-5 bi-file-text"></i> <span class="ms-1 d-none d-sm-inline">Cetak Partek</span></a>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+            <div class="col py-3">
+                <div class="page-title grey px-5 pt-2 text-dark"><strong><u>Dokumen / Skala Kecil / Create</u></strong></div>
+                <section class="section d-flex flex-column align-items-center">
+                    <div class="main-card">
+                            <div class="header-card">
+                                <h5>List Data Table Skala Kecil</h5>
+                                <button class="btn btn-create">Create</button>
+                            </div>
+                            <div class="body-card">
+                                <table class="StandardTable text-center">
+                                    <thead class="orange" >
+                                        <tr>
+                                          <th scope="col">No</th>
+                                          <th scope="col">NIB</th>
+                                          <th scope="col">Nama PPBH</th>
+                                          <th scope="col">Progress</th>
+                                          <th scope="col">Action</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">1</th>
+                                          <td>Mark</td>
+                                          <td>Otto</td>
+                                          <td>@mdo</td>
+                                          <td>
+                                            <button class="btn btn-info btn-sm"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger btn-sm"><i class="bi bi-trash3"></i></button>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">2</th>
+                                          <td>Jacob</td>
+                                          <td>Thornton</td>
+                                          <td>@fat</td>
+                                          <td>
+                                            <button class="btn btn-info btn-sm"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger btn-sm"><i class="bi bi-trash3"></i></button>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">3</th>
+                                          <td>Larry</td>
+                                          <td>the Bird</td>
+                                          <td>@twitter</td>
+                                          <td>
+                                            <button class="btn btn-info btn-sm"><i class="bi bi-pencil-square"></i></button>
+                                            <button class="btn btn-danger btn-sm"><i class="bi bi-trash3"></i></button>
+                                        </td>
+                                        </tr>
+                                      </tbody>
+                                </table>
+                            </div>
+                    </div>
+                </sectio n>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="... (integrity hash) ..." crossorigin="anonymous"></script>
+
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="... (integrity hash) ..." crossorigin="anonymous"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="... (integrity hash) ..." crossorigin="anonymous"></script>
+
+    </html>
