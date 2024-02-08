@@ -25,7 +25,7 @@
     justify-content:flex-start;
     flex-direction: column; */
     /* padding-top: 200px; */
-    width: 1448px;
+    width: 1000px;
     height: 750px;
     top: 165px;
     left: 416px;
@@ -44,7 +44,12 @@
 }
 
 .body-card{
-    padding-top: 50px;
+    padding-top: 25px;
+}
+
+.body-form{
+    padding-left: 5%;
+    width: 92%;
 }
 
 .StandardTable {
@@ -53,10 +58,9 @@
     -moz-border-radius: 10px;
     /* margin-left: auto;
     margin-right: auto; */
-    margin-left: auto;
-    margin-right: auto;
+    /* margin: 10; */
     box-shadow: 2px 2px 5px #888888;
-    width: 1300px;
+    width: 92%;
     margin-bottom: 15px;
     border-spacing: 0;
 }
